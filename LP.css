@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+.header {
+    display: flex;
+    background-color: rgb(234, 234, 234);
+    padding: 10px;
+
+}
+.head1 {
+    color: rgb(173, 216, 234);
+    font-size: 60px;
+}
+.head2 {
+    display: flex;
+}
+.options {
+    height: 60px; 
+    width: 120px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+    color: rgb(14, 58, 77);
+    font-family: "Ubuntu", sans-serif;;
+    font-weight: 500;
+    font-size: 18px;
+}
+.options:hover {
+    font-size: 20px;
+    background-color: rgb(14, 58, 77);
+    color: azure;
+}
+
+/* style="padding-top: 8px; padding-right: 25px; color:rgb(14, 58, 77); */
+
+.btn1 {
+    border-radius: 40%;
+    border: none;
+    background-color:  rgb(89, 180, 219);
+    color: white;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    right: 20px;
+}
+.btn1:hover {
+    background-color: rgb(14, 58, 77);
+    color: rgb(89, 180, 219);
+}
+.btw {
+    margin: 50px;
+    display: flex;
+}
+.part1 {
+    font-size: 70px;
+    font-weight: 800;
+    color: aliceblue;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px;
+}
+.in {
+    padding: 10px;
+    margin: 10px;
+}

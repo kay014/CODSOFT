@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="Calculator.css" rel="stylesheet" >
+</head>
+<body>
+    <div class="body">
+        <div class="calculator">
+          <div class="screen">
+            <div class="one" id="ScreenOne"></div>   
+            <div class="two" id="ScreenTwo">0</div>   
+          </div>
+          <div class="buttons-grid">
+            <button
+              class="btn btn-red secondspan"
+              id="clearBtn"
+              onclick="this.blur();"
+            >
+              CLEAR
+            </button>
+            <button
+              class="btn btn-blue secondspan"
+              id="deleteBtn"
+              onclick="this.blur();"
+            >
+              DELETE
+            </button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">7</button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">8</button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">9</button>
+            <button class="btn" onclick="this.blur();" data-operator style="border-radius: 50%;">÷</button>
+  
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">4</button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">5</button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">6</button>
+            <button class="btn" onclick="this.blur();" data-operator style="border-radius: 50%;">×</button>
+  
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">1</button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">2</button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">3</button>
+            <button class="btn" onclick="this.blur();" data-operator style="border-radius: 50%;">−</button>
+  
+            <button class="btn" onclick="this.blur();" id="pointBtn" style="border-radius: 50%;">.</button>
+            <button class="btn" onclick="this.blur();" data-number style="border-radius: 50%;">0</button>
+            <button class="btn" onclick="this.blur();" id="equalsBtn" style="border-radius: 50%;">=</button>
+            <button class="btn" onclick="this.blur();" data-operator style="border-radius: 50%;">+</button>
+          </div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
